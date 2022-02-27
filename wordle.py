@@ -3,7 +3,6 @@ from termcolor import colored
 
 listofwords = []
 with open ("wordle_5_letters.txt") as file: # Dictionary of 500 5-letter words
-# C:\\Users\charl\OneDrive - Edge Hill University\Documents\Documents\ATOM\Projects\
     lines = file.readlines()
     for line in lines:
         line = line.strip()
