@@ -32,14 +32,13 @@ def secondly(letter, word):
 
 guess = ""
 correct = False
-for i in range(5):
+for i in range(6):
     q = p
     if guess != p:
         co = ["", "", "", "", ""]
         i = i + 1
         print("")
-        print("Round ",i)
-        print("Please enter your guess")
+        print("Round "+str(i)+". Please enter your guess:")
         guess = input()
 
         if guess == p: # Correct Answer
