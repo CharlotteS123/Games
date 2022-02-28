@@ -39,9 +39,9 @@ def won(b): # All combinations of winning
 round = 0
 complete = False
 
+board(boarding)
 while complete == False: # Game
     round += 1
-    board(boarding)
 
     """ Player 1 """
     print(colored("\nPlayer 1's Turn", "yellow"))
